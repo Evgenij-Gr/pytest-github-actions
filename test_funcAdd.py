@@ -9,3 +9,6 @@ class TestFuncAdd:
     def test_ListList(self):
         assert func.funcAdd([1, 2], [3, 4]) == [1, 2, 3, 4]
 
+    def test_IntIntFail(self):
+        assert func.funcAdd(2, 5) == 9
+
